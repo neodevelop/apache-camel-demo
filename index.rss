@@ -2,6 +2,7 @@
 <title>Domingo Suarez Torres's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Apprentice Merchant (Level 1)</title><description>Added an external repository with git remote add.</description></item>
 <item><title>Apprentice Architect (Level 2)</title><description>Created a new repository with git init.</description></item>
 <item><title>Apprentice Author (Level 2)</title><description>Made 2^Level commits using git commit.</description></item>
 <item><title>Apprentice Stone Mason (Level 3)</title><description>Added files to the index area for inclusion in the next commit with git add</description></item>
