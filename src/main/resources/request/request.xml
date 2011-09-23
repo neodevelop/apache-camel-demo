@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetQuote>
+         <web:symbol>$body</web:symbol>
+      </web:GetQuote>
+   </soapenv:Body>
+</soapenv:Envelope>

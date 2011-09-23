@@ -4,10 +4,26 @@ apply plugin: 'groovy'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 
-repositories {
-    mavenCentral()
-}
+sourceCompatibility = "1.6"
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.0-milestone-4'
+  gradleVersion = '1.0-milestone-4'
+}
+
+
+repositories {
+  mavenCentral()
+}
+
+camelVersion = "2.8.1"
+
+dependencies {
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-core'
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-cxf'
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-ftp'
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-jdbc'
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-jms'
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-stream'
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-velocity'
+  compile group: 'org.apache.camel', version: camelVersion, name: 'camel-freemarker'
 }
