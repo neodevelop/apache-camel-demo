@@ -33,6 +33,6 @@ public class Routes extends RouteBuilder {
 
     String webService = sb.toString();
 
-    from(queueRequestSymbol).to(velocityTemplate).to(webService).to("stream:out");
+    from(queueRequestSymbol).to(velocityTemplate).to(webService).to("stream:err");
   }
 }

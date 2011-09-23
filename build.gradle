@@ -26,4 +26,6 @@ dependencies {
   compile group: 'org.apache.camel', version: camelVersion, name: 'camel-stream'
   compile group: 'org.apache.camel', version: camelVersion, name: 'camel-velocity'
   compile group: 'org.apache.camel', version: camelVersion, name: 'camel-freemarker'
+
+  testCompile group: 'junit', name: 'junit', version: '4.+'
 }
